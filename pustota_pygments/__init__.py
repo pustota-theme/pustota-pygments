@@ -42,7 +42,7 @@ class PustotaLightStyle(Style):
         token.Keyword: '#FA8D3E',
         token.Operator: '#FA8D3E',
         # Group 5: Function definitions
-        token.Name.Function: '#F2AE49',
+        token.Name.Function: '#A37ACC',
         # Group 6: Type definitons
         token.Name.Class: '#399EE6',
         # Everything else:
