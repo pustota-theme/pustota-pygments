@@ -12,5 +12,10 @@ package:
 	poetry check
 	poetry run pip check
 
+.PHONY: smoke
+smoke:
+	poetry run pygmentize -f rtf -P style=pustota pustota_pygments/__init__.py > /dev/null
+	poetry run pygmentize -f rtf -P style=pustota-light pustota_pygments/__init__.py > /dev/null
+
 .PHONY: test
-test: lint package
+test: smoke lint package
