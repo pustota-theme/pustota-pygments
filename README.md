@@ -1,7 +1,6 @@
 # pustota-pygments
 
 [![test](https://github.com/pustota-theme/pustota-pygments/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/pustota-theme/pustota-pygments/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/pustota-theme/pustota-pygments/branch/master/graph/badge.svg)](https://codecov.io/gh/pustota-theme/pustota-pygments)
 [![Python Version](https://img.shields.io/pypi/pyversions/pustota-pygments.svg)](https://pypi.org/project/pustota-pygments/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
