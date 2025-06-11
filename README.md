@@ -22,7 +22,7 @@ Dark theme:
 ![pustota](https://raw.githubusercontent.com/pustota-theme/pustota-pygments/master/assets/dark.png)
 
 ```bash
-uvx --with pustota-pygments pygemntize \
+uvx --with pustota-pygments --from pygments pygmentize \
   -f rtf -P style=pustota -O fontface='Menlo' \
   $FILENAME | pbcopy
 ```
@@ -32,7 +32,7 @@ Light theme:
 ![pustota](https://raw.githubusercontent.com/pustota-theme/pustota-pygments/master/assets/light.png)
 
 ```bash
-uvx --with pustota-pygments pygemntize \
+uvx --with pustota-pygments --from pygments pygmentize \
   -f rtf -P style=pustota-light -O fontface='Menlo' \
   $FILENAME | pbcopy
 ```

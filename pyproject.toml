@@ -7,7 +7,7 @@ build-backend = "poetry.core.masonry.api"
 name = "pustota-pygments"
 description = "pustota theme for pygments for code highlighting"
 repository = "https://github.com/pustota-theme/pustota-pygments"
-version = "0.1.0"
+version = "0.1.1"
 requires-python = ">=3.10,<3.14"
 readme = "README.md"
 license = { text = "MIT" }

@@ -8,6 +8,8 @@ from pygments.style import Style
 class PustotaStyle(Style):
     """Regular style for dark themes."""
 
+    name = 'pustota'
+
     styles = {  # noqa: RUF012
         # Group 1: comments
         token.Comment: 'italic #626A73',
@@ -31,20 +33,22 @@ class PustotaStyle(Style):
 class PustotaLightStyle(Style):
     """Regular style for light themes."""
 
+    name = 'pustota-light'
+
     styles = {  # noqa: RUF012
         # Group 1: comments
-        token.Comment: 'italic #787B80',
+        token.Comment: 'italic #909396',
         # Group 2: strings / text
         token.Literal.String: '#86B300',
         # Group 3: constants
         token.Literal: '#ED9366',
         # Group 4: keywords and operators
-        token.Keyword: '#FA8D3E',
-        token.Operator: '#FA8D3E',
+        token.Keyword: '#ff4000',
+        # token.Operator: '#ff4000',
         # Group 5: Function definitions
-        token.Name.Function: '#A37ACC',
+        token.Name.Function: '#8025e9',
         # Group 6: Type definitons
-        token.Name.Class: '#399EE6',
+        token.Name.Class: '#3978e6',
         # Everything else:
-        token.Token: '#5C6166',
+        token.Token: '#424f60',
     }
