@@ -5,18 +5,40 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/pustota-pygments.svg)](https://pypi.org/project/pustota-pygments/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
-pustota theme for pygments for code highlighting
+pustota theme for pygments for code highlighting.
+
 
 ## Features
 
-- Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
-- Add yours!
+- Highlights you core with [`pygmentize`](https://pygments.org)
+- Follows [`pustota` theme](https://github.com/pustota-theme/pustota) colors
 
-## Installation
+
+## Usage
+
+We recommend using [`uvx`](https://docs.astral.sh/uv/guides/tools/).
+
+Dark theme:
+
+![pustota](https://raw.githubusercontent.com/pustota-theme/pustota-pygments/master/assets/dark.png)
 
 ```bash
-pip install pustota-pygments
+uvx --with pustota-pygments pygemntize \
+  -f rtf -P style=pustota -O fontface='Menlo' \
+  $FILENAME | pbcopy
 ```
+
+Light theme:
+
+![pustota](https://raw.githubusercontent.com/pustota-theme/pustota-pygments/master/assets/light.png)
+
+```bash
+uvx --with pustota-pygments pygemntize \
+  -f rtf -P style=pustota-light -O fontface='Menlo' \
+  $FILENAME | pbcopy
+```
+
+Instead of `pbcopy` you might need another copy tool for your OS.
 
 
 ## License

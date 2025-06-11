@@ -1,14 +1,14 @@
 from typing import final
 
-from pygments.style import Style
 from pygments import token
+from pygments.style import Style
 
 
 @final
 class PustotaStyle(Style):
     """Regular style for dark themes."""
 
-    styles = {
+    styles = {  # noqa: RUF012
         # Group 1: comments
         token.Comment: 'italic #626A73',
         # Group 2: strings / text
@@ -31,7 +31,7 @@ class PustotaStyle(Style):
 class PustotaLightStyle(Style):
     """Regular style for light themes."""
 
-    styles = {
+    styles = {  # noqa: RUF012
         # Group 1: comments
         token.Comment: 'italic #787B80',
         # Group 2: strings / text
@@ -42,7 +42,7 @@ class PustotaLightStyle(Style):
         token.Keyword: '#FA8D3E',
         token.Operator: '#FA8D3E',
         # Group 5: Function definitions
-        token.Name.Function: '#F2AE49',
+        token.Name.Function: '#A37ACC',
         # Group 6: Type definitons
         token.Name.Class: '#399EE6',
         # Everything else:
