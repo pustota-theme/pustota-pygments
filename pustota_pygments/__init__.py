@@ -1,7 +1,7 @@
 from typing import final
 
-from pygments.style import Style
 from pygments import token
+from pygments.style import Style
 
 
 @final
