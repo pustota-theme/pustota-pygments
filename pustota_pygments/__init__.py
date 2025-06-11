@@ -8,7 +8,7 @@ from pygments import token
 class PustotaStyle(Style):
     """Regular style for dark themes."""
 
-    styles = {
+    styles = {  # noqa: RUF012
         # Group 1: comments
         token.Comment: 'italic #626A73',
         # Group 2: strings / text
@@ -31,7 +31,7 @@ class PustotaStyle(Style):
 class PustotaLightStyle(Style):
     """Regular style for light themes."""
 
-    styles = {
+    styles = {  # noqa: RUF012
         # Group 1: comments
         token.Comment: 'italic #787B80',
         # Group 2: strings / text
