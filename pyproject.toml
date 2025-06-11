@@ -44,6 +44,7 @@ pygments = "^2.19"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.16"
+types-pygments = "^2.19"
 
 wemake-python-styleguide = "^1.1"
 ruff = "^0.11"

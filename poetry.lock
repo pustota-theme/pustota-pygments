@@ -239,6 +239,33 @@ files = [
 ]
 
 [[package]]
+name = "types-docutils"
+version = "0.21.0.20250604"
+description = "Typing stubs for docutils"
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+files = [
+    {file = "types_docutils-0.21.0.20250604-py3-none-any.whl", hash = "sha256:bfa8628176c06a80cdd1d6f3fb32e972e042db53538596488dfe0e9c5962b222"},
+    {file = "types_docutils-0.21.0.20250604.tar.gz", hash = "sha256:5a9cc7f5a4c5ef694aa0abc61111e0b1376a53dee90d65757f77f31acfcca8f2"},
+]
+
+[[package]]
+name = "types-pygments"
+version = "2.19.0.20250516"
+description = "Typing stubs for Pygments"
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+files = [
+    {file = "types_pygments-2.19.0.20250516-py3-none-any.whl", hash = "sha256:db27de8b59591389cd7d14792483892c021c73b8389ef55fef40a48aa371fbcc"},
+    {file = "types_pygments-2.19.0.20250516.tar.gz", hash = "sha256:b53fd07e197f0e7be38ee19598bd99c78be5ca5f9940849c843be74a2f81ab58"},
+]
+
+[package.dependencies]
+types-docutils = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "4.14.0"
 description = "Backported and Experimental Type Hints for Python 3.9+"
@@ -270,4 +297,4 @@ pygments = ">=2.5,<3.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.14"
-content-hash = "3c2838f16a3a94e9ab326a82aaec1a470d61c8ba0c1dc3f1359c32b652a058d7"
+content-hash = "8ef81190599f376e7ac07d6a3a38a16393b1f470c696206a21ac4c511c0d39e0"
