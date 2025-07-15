@@ -43,7 +43,7 @@ classifiers = [
 pygments = "^2.19"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.16"
+mypy = "^1.17"
 types-pygments = "^2.19"
 
 wemake-python-styleguide = "^1.1"
