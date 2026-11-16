@@ -10,7 +10,7 @@ class PustotaStyle(Style):
 
     name = 'pustota'
 
-    styles = {  # noqa: RUF012
+    styles = {  # ruff: ignore[mutable-class-default]
         # Group 1: comments
         token.Comment: 'italic #626A73',
         # Group 2: strings / text
@@ -35,7 +35,7 @@ class PustotaLightStyle(Style):
 
     name = 'pustota-light'
 
-    styles = {  # noqa: RUF012
+    styles = {  # ruff: ignore[mutable-class-default]
         # Group 1: comments
         token.Comment: 'italic #909396',
         # Group 2: strings / text
